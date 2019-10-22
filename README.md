@@ -1,6 +1,8 @@
 ## Install and Run
-### `rm -rf node_modules && npm i`
-### `npm start`
+
+remove and re-install required packages: `rm -rf node_modules && npm i`
+
+start the App: `npm start`
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
