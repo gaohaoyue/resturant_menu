@@ -35,7 +35,7 @@ export const getCategoriesLists = () => {
                 dispatch(fetchCategoriesSuccess(response));
             })
             .catch((error) => {
-                dispatch(fetchCategoriesError());
+                dispatch(fetchCategoriesError(error));
             })
     }
 }
